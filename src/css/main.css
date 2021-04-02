@@ -10,6 +10,8 @@
     
     .header_logo {
         margin: 0 15px;
+        height: 100px;
+        width: auto;
     }
     
     .carousel-caption {
@@ -27,7 +29,6 @@
     }
     
     .title_crew {
-       
         text-align: center;
         color: black;
     }
@@ -86,11 +87,15 @@
     .btn-lg {
         text-decoration: none;
     }
-
-
+    
     .item_worck {
+        text-align: center;
         margin: 0 auto;
         width: 60%;
+    }
+    
+    .item_worck li {
+        text-align: left;
     }
     
     .news_block {
@@ -116,5 +121,12 @@
         height: 800px;
         margin: 0 auto;
     }
-    .item_worck
-    {font-size: larger;}
+    
+    .item_worck {
+        font-size: larger;
+    }
+    
+    .slide {
+        height: 650px;
+        overflow: hidden;
+    }
